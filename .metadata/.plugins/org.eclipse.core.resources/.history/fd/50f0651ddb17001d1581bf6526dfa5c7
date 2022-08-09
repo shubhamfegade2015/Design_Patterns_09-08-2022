@@ -1,0 +1,11 @@
+package com.hexaware.java8examples.functionalinterface;
+
+import com.hexaware.java8examples.functionalinterfaceexample.Addition;
+
+public class testlambdaexp {
+	public static void main(String args[])
+	{
+		Message m = () -> System.out.println("Method Message Implementation");
+		m.message();
+	}
+}

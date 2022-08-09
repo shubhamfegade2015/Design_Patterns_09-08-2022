@@ -1,0 +1,5 @@
+package com.hexaware.DesinPatternsInJava.faced;
+
+public enum DBTypes {
+	MYSQL,ORACLE
+}
