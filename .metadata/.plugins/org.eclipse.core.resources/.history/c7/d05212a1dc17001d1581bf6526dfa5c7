@@ -12,6 +12,5 @@ public class testlambdaexp {
 		m.message("SAM");
 		
 		Quotation q=() -> System.out.println("This is quotation");
-		q.quotation();
 	}
 }
