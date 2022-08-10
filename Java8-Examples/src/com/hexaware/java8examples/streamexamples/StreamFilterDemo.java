@@ -2,11 +2,13 @@ package com.hexaware.java8examples.streamexamples;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class StreamFilterDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		List<Integer> listOfValues = new ArrayList<>();
 		listOfValues.add(2);
 		listOfValues.add(4);
@@ -25,6 +27,9 @@ public class StreamFilterDemo {
 		System.out.println("Original list is not modified....");
 		listOfValues.stream()
 					.forEach(System.out::println);
+		
+		
+		
 	}
 
 }
